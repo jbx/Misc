@@ -29,5 +29,9 @@
   kept-old-versions 2
   version-control t)
 
-;meta-g = goto-line
+;;meta-g = goto-line
 (global-set-key (kbd "M-g") 'goto-line)
+
+;;
+(setq column-number-mode t)
+
